@@ -1,0 +1,1047 @@
+fileFormatVersion: 2
+guid: 9f0ee7f18595e234ab941126a990351c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a554350404cd34a4bb65b10ab3c7ca41
+      internalID: -1569866394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 648
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dcc85f17c13e1418e15c6864aeaf3a
+      internalID: -899589132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 648
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d1faac394cbbe448c057c2137c0587
+      internalID: 770092105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 648
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9496e2d338371744989d0d9365e36bb
+      internalID: 1310237611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 648
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f369196056fa5b7448f1befa0ca18662
+      internalID: 505406802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 648
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7895f9a52ae17324889088585c883436
+      internalID: -1436984436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c271a86b3d302c642bceb4d9ebc65fa4
+      internalID: -1287399197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 540
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5466a6d4927c677409f6f95c601f8794
+      internalID: -443470914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 540
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71712334b36de08449134c714212154e
+      internalID: 1988115664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 540
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46d51164db42a74eb015796fb6a14f7
+      internalID: -2073151093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 540
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd6f2d631f9d534c8908adc9f96c7a4
+      internalID: -60051202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 540
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f501b1e85d68214b859b82f5b2b59ee
+      internalID: 112329139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1622efa377ac99749885c7b406668779
+      internalID: 35187711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 432
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77aa1de026c80ab4fbf4ac40318cc709
+      internalID: -117630223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 432
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616afbc301abe8445b188354fb420870
+      internalID: 388589080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 432
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f14cf16fcada044807238155d49693
+      internalID: 523208482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 432
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b2b60cee6217d489ef097b03026846
+      internalID: -1089023446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 432
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68d786f4c8f7e7408012fe992e97e0e
+      internalID: 1965708028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42038f5ed785b94b9703102917fcd6a
+      internalID: -342010615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 324
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5041328970b084242bbb474f3ceaca7c
+      internalID: -2051562161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 324
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c808aa1584d846a93da0192b3a551
+      internalID: -774023485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 324
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c252c9ac957c26c4d90dd7c5c6a69b5b
+      internalID: -463765152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 324
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8860f89c47ec74b956364a5cd9105e
+      internalID: -43436342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 324
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf54cda5ce338534da10616487535c44
+      internalID: 1581459114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5b0a74e1be81748ade8a5546fdd731
+      internalID: 1663836904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 216
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415f3f411d9367e49a42af16e787ec02
+      internalID: -1771321370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_26
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 216
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d576e61f158164099066f4adc518a8
+      internalID: 774552696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_27
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 216
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d89b076cf90c5849b684cdeb996310b
+      internalID: 1171536095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_28
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 216
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c176fca56ef5247b24f77dd9c7b199
+      internalID: 2037189777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 216
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f9e779889718347987c8697efe6d78
+      internalID: 28589200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7befb4d4572c74742b9d26b1334faec7
+      internalID: -1892772041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_31
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 108
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0823f7ffc53324a9508dd6d258e7f7
+      internalID: -391269155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_32
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 108
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cc1de043055f348a70fff551844d3b
+      internalID: -598281347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_33
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 108
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f767032ca65ce45937601630a13fe1
+      internalID: 928938230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_34
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 108
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff45beca7708454385663d90f6694e2
+      internalID: -1743479804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_35
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 108
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596c16ec595b9e844870f6da55db7fc3
+      internalID: 1819862053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1574645363be64eb682deb01fe8871
+      internalID: 1768230712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_37
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72bb41de347b2f4683defaf1f5a1108
+      internalID: 278694423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_38
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc99bbbedc73d8e48b9188cf3307a74f
+      internalID: 1305113865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_39
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca34cc337e67d2a43aa21595ad164c40
+      internalID: -1283679146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_40
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2456268caae666b4f995554439ee1580
+      internalID: 367800816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdle - Copy_41
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 78.5
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453d5ab0dcff9884db448acb9db33b7f
+      internalID: 2113216497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlayerIdle - Copy_18: -342010615
+      PlayerIdle - Copy_11: 112329139
+      PlayerIdle - Copy_6: -1287399197
+      PlayerIdle - Copy_33: 928938230
+      PlayerIdle - Copy_32: -598281347
+      PlayerIdle - Copy_24: 1663836904
+      PlayerIdle - Copy_31: -391269155
+      PlayerIdle - Copy_10: -60051202
+      PlayerIdle - Copy_7: -443470914
+      PlayerIdle - Copy_38: 1305113865
+      PlayerIdle - Copy_21: -463765152
+      PlayerIdle - Copy_4: 505406802
+      PlayerIdle - Copy_14: 388589080
+      PlayerIdle - Copy_40: 367800816
+      PlayerIdle - Copy_39: -1283679146
+      PlayerIdle - Copy_8: 1988115664
+      PlayerIdle - Copy_30: -1892772041
+      PlayerIdle - Copy_34: -1743479804
+      PlayerIdle - Copy_0: -1569866394
+      PlayerIdle - Copy_5: -1436984436
+      PlayerIdle - Copy_9: -2073151093
+      PlayerIdle - Copy_12: 35187711
+      PlayerIdle - Copy_20: -774023485
+      PlayerIdle - Copy_36: 1768230712
+      PlayerIdle - Copy_37: 278694423
+      PlayerIdle - Copy_22: -43436342
+      PlayerIdle - Copy_17: 1965708028
+      PlayerIdle - Copy_15: 523208482
+      PlayerIdle - Copy_29: 28589200
+      PlayerIdle - Copy_23: 1581459114
+      PlayerIdle - Copy_41: 2113216497
+      PlayerIdle - Copy_13: -117630223
+      PlayerIdle - Copy_16: -1089023446
+      PlayerIdle - Copy_27: 1171536095
+      PlayerIdle - Copy_28: 2037189777
+      PlayerIdle - Copy_25: -1771321370
+      PlayerIdle - Copy_1: -899589132
+      PlayerIdle - Copy_2: 770092105
+      PlayerIdle - Copy_3: 1310237611
+      PlayerIdle - Copy_19: -2051562161
+      PlayerIdle - Copy_35: 1819862053
+      PlayerIdle - Copy_26: 774552696
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

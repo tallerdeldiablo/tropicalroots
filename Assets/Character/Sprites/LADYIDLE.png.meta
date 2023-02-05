@@ -1,0 +1,1047 @@
+fileFormatVersion: 2
+guid: 47e12e0183f911c44a4e0febabfc2a21
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LADYIDLE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4602
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ac66f931ba0014a924ddd918be4fe1
+      internalID: -988880870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_1
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 4602
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a28a401fe83c245bb2b93988d6ead5
+      internalID: 1663271449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_2
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 4602
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7474ef0e6b0363847814d60fbc676294
+      internalID: -1294968387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_3
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 4602
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dd7f61e4e140645b47fc3fef9d94ef
+      internalID: 1048324442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_4
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 4602
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55954fb732617a540935b3054c2d0ac2
+      internalID: 62421718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_5
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 4602
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ed24342dbd7d247ab7482ef7605dcb
+      internalID: 1009724510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3835
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0bb31c30f4e1f49a699063957e24ad
+      internalID: 1248842217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_7
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3835
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52384a4aa15951478c02d7fc9fbf495
+      internalID: -177321438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_8
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 3835
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc086a416f6c0e4d9f137caf8708296
+      internalID: 1679803323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_9
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 3835
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abf1fe4d602c3a46860821139b8c356
+      internalID: -922933570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_10
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 3835
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbde80cfdbdf794486e1ab5e5fc1b42
+      internalID: -248193357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_11
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 3835
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8432d49a29d82024b838fa4b763a800c
+      internalID: -1203471934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3068
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696d8e45bffc0c44a81fe833f78f89cf
+      internalID: -1713775920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_13
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3068
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc1eda4e4f0bde449bcf79b812e6802
+      internalID: -1250052207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_14
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 3068
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ee3590cd42e5d498bae1ba1b88a552
+      internalID: -1896385340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_15
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 3068
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d50298bf89cda4fb875cb496aa53f5
+      internalID: 1257484618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_16
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 3068
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86aea56db352394bb2e6b3a12881e48
+      internalID: 131942345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_17
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 3068
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287d9e54f15fdb8469961b724b3dc38c
+      internalID: 1785054431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2301
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f0594c893d09c4dbb1bcd67615da65
+      internalID: 159478459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_19
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2301
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd3787bbc3c2b3498375368c4c6293c
+      internalID: 1452160130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_20
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 2301
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729270339ef0caf469bec8a66df9bcc4
+      internalID: 1841656346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_21
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 2301
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6793754688d044ea70f079dfd59315
+      internalID: 662705752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_22
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 2301
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77921918d39da4a4ab0ed70e10defa76
+      internalID: -315629643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_23
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 2301
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dbf12839b4b2b4cbd0a6b2d110762f
+      internalID: -139528238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1534
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e330e7a25dd341469e63182d37f0f57
+      internalID: -1592498832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_25
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1534
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b63d2f8186d113459d08212c37a8490
+      internalID: 1384661428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_26
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1534
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a29245a15ae024e8b3b73086b699a9
+      internalID: -1939596610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_27
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 1534
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66f32a2bc67aae41872d23843d8e0d3
+      internalID: -1551684053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_28
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 1534
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1981996f236714ab6298bdc04982e7
+      internalID: 36702221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_29
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 1534
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea1f8431918626468cb85e9fbcbab7b
+      internalID: 1495051672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d8e0ddcb8e9c2409e8169d7a7ef7d1
+      internalID: -135789190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_31
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 767
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b8687fba348da49989041da9783aeb
+      internalID: -725853406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_32
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 767
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bf9eb82b315c1449d6590bf7663d3c
+      internalID: 1774432371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_33
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 767
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51e7e83a87bc764db9f63fd35205c82
+      internalID: 1413271358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_34
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 767
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf079b2962a1c14485e8e93d463f70b
+      internalID: -211764539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_35
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 767
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5d87601a9fad5418bc879f4e8f970d
+      internalID: -1147372556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e57804360476a4492143019bfc1ad2
+      internalID: 1824880236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_37
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 0
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3cab5dea0feec49b15d3b547cdb2c6
+      internalID: 695284722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_38
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 0
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a84195567a8a34e87943f167cc3c38
+      internalID: 1325180005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_39
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 0
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c700a8b99442dd419d52e86977c2e4b
+      internalID: 662625522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_40
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 0
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fc8e5f95078b141bb44553214fe840
+      internalID: 351950056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYIDLE_41
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 0
+        width: 557
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3982f6c07de6f4bb4112f55d34ed73
+      internalID: 1773319151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LADYIDLE_30: -135789190
+      LADYIDLE_32: 1774432371
+      LADYIDLE_26: -1939596610
+      LADYIDLE_3: 1048324442
+      LADYIDLE_10: -248193357
+      LADYIDLE_21: 662705752
+      LADYIDLE_39: 662625522
+      LADYIDLE_41: 1773319151
+      LADYIDLE_8: 1679803323
+      LADYIDLE_34: -211764539
+      LADYIDLE_29: 1495051672
+      LADYIDLE_11: -1203471934
+      LADYIDLE_16: 131942345
+      LADYIDLE_12: -1713775920
+      LADYIDLE_17: 1785054431
+      LADYIDLE_14: -1896385340
+      LADYIDLE_40: 351950056
+      LADYIDLE_33: 1413271358
+      LADYIDLE_35: -1147372556
+      LADYIDLE_6: 1248842217
+      LADYIDLE_0: -988880870
+      LADYIDLE_5: 1009724510
+      LADYIDLE_2: -1294968387
+      LADYIDLE_7: -177321438
+      LADYIDLE_19: 1452160130
+      LADYIDLE_23: -139528238
+      LADYIDLE_13: -1250052207
+      LADYIDLE_9: -922933570
+      LADYIDLE_36: 1824880236
+      LADYIDLE_15: 1257484618
+      LADYIDLE_18: 159478459
+      LADYIDLE_4: 62421718
+      LADYIDLE_38: 1325180005
+      LADYIDLE_25: 1384661428
+      LADYIDLE_22: -315629643
+      LADYIDLE_24: -1592498832
+      LADYIDLE_27: -1551684053
+      LADYIDLE_31: -725853406
+      LADYIDLE_37: 695284722
+      LADYIDLE_28: 36702221
+      LADYIDLE_1: 1663271449
+      LADYIDLE_20: 1841656346
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
