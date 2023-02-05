@@ -1,0 +1,584 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675633791700012, "dur": 410807, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675633791700047, "dur": 7951, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675633791708000, "dur": 31384, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675633791739386, "dur": 185779, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675633791925167, "dur": 171366, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675633792096535, "dur": 14283, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675633792111029, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1675633791815995, "dur": 88396, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675633791816885, "dur": 35562, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675633791891520, "dur": 3761, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675633791895284, "dur": 9101, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675633791895884, "dur": 8103, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675633791908001, "dur": 1081, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675633791907280, "dur": 1821, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675633792111068, "dur": 86, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675633791946625, "dur":607, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633791947237, "dur":78, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675633791947338, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675633791947354, "dur":187, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675633791947559, "dur":448, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633791948007, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792088887, "dur":264, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089151, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089163, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089164, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089168, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089169, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089172, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089173, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089177, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089178, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089182, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089183, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089186, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089186, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089190, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089191, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089195, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089205, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792089222, "dur":1226, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675633791947885, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791948041, "dur":2567, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791950613, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675633791950615, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791950633, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675633791950636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791950884, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675633791952121, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1675633791952288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791952299, "dur":311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1675633791952639, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1675633791952669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791952742, "dur":446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1675633791953223, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1675633791953262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791953266, "dur":345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1675633791953643, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots.exe" }}
+,{ "pid":12345, "tid":1, "ts":1675633791953658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791953661, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots.exe" }}
+,{ "pid":12345, "tid":1, "ts":1675633791955911, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791955925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791955933, "dur":360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791956301, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791956319, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791956322, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791957305, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791957347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791957351, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791957927, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791957938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791957941, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791958447, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791958459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791958462, "dur":466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791958936, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791958947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791958951, "dur":472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791959430, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791959439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791959442, "dur":339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791959788, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791959797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791959800, "dur":466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791960274, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791960286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791960289, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791960655, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791960665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791960668, "dur":345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791961021, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791961031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791961047, "dur":538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791961593, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791961604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791961607, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791962085, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791962094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791962098, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791962879, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791962951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791962954, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791963462, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791963472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791963475, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791964091, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791964101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791964105, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791965142, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791965153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791965156, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791965648, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791965657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791965672, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791966322, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791966508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791966511, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791967590, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791967642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791967644, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791968270, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791968370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791968373, "dur":514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791968895, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791969202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791969205, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791971034, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791971044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791971047, "dur":7152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675633791978208, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675633791978216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791978219, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675633791979561, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1675633791979574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791979577, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1675633791980981, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1675633791981050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675633791981053, "dur":329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1675633791981389, "dur":107538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791948475, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791948475, "dur":2197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791950673, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1675633791950740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791952825, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1675633791953240, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791953275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791953355, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791955529, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791955543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791955662, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791956284, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791956299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791956303, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791957644, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791957661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791957664, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791958898, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791958910, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791958913, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791959880, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791959890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791959893, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791960751, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791960761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791960764, "dur":471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791961244, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791961256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791961259, "dur":423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791961690, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791961704, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791961707, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791962199, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791962209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791962212, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791963033, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791963044, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791963047, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791963979, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791963989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791963992, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791965077, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791965088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791965091, "dur":483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791965583, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791965596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791965599, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791966565, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791966625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791966628, "dur":349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791966984, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791967041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791967044, "dur":326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791967377, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791967435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791967438, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791968094, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791968157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791968161, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791968940, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791969003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791969007, "dur":638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791969656, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791969668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791969670, "dur":353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791970030, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791970121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791970124, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791970631, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791970699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791970702, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791971242, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791971255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791971268, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791972760, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791972770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791972772, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791974164, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791974176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791974179, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791975089, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791975097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675633791975100, "dur":11726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675633791986838, "dur":102064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791948000, "dur":73, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791948074, "dur":2594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791950668, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675633791950723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791951706, "dur":317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675633791952056, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1675633791952087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791952143, "dur":444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1675633791952622, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675633791952657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791952751, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675633791953245, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675633791953283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791953348, "dur":17844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675633791971231, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675633791971247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791971251, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675633791971916, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675633791971926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791971929, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675633791972558, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675633791972573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791972576, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675633791973164, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675633791973173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791973176, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675633791977952, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1675633791977962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675633791977965, "dur":5980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1675633791983958, "dur":104975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791948112, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791948112, "dur":2563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791950675, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675633791950742, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791956112, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675633791957047, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791957131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791957134, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791957584, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791957594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791957597, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791958414, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791958428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791958431, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791959045, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791959056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791959059, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791959676, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791959692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791959695, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791960268, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791960278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791960282, "dur":582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791960872, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791960882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791960885, "dur":455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791961347, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791961357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791961360, "dur":393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791961760, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791961770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791961772, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791962672, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791962685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791962688, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791963057, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791963066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791963069, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791963561, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791963572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791963590, "dur":527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791964125, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791964135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791964138, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791967256, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791967326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791967329, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791967873, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791967953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791967967, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791968535, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791968626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791968630, "dur":458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791969095, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791969480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791969484, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791971662, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791971672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791971675, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791974161, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791974170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791974173, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791974818, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791974829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791974831, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791975342, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791975350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791975352, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791976139, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791976303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791976308, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791977195, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791977205, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791977339, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675633791978031, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675633791978041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675633791978045, "dur":110804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675633792088861, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1675633792088863, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791948236, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791948237, "dur":2437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791950674, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1675633791950728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791951986, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1675633791952376, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1675633791952405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791952409, "dur":355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1675633791952795, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675633791952835, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791952898, "dur":388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675633791953322, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1675633791953358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791953360, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1675633791956637, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791956656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791956675, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791957480, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791957496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791957499, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791958249, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791958261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791958264, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791958805, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791958821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791958825, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791959365, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791959527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791959530, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791960355, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791960365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791960368, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791961675, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791961687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791961690, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791962420, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791962430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791962433, "dur":430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791962870, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791962891, "dur":60, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791962955, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791963438, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791963448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791963451, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791963928, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791963938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791963941, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791965135, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791965146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791965149, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791965782, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791965792, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791965797, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791966393, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791966674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791966677, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791968482, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791968544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791968547, "dur":478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791969034, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791969237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791969241, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791970277, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791970337, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791970340, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791970663, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791970731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791970734, "dur":496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791971238, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791971249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791971253, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791972237, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791972250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791972253, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791972622, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791972634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791972637, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791973557, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791973566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791973569, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791973924, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791973932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791973935, "dur":6254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675633791980217, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1675633791980232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675633791980234, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1675633791981087, "dur":107845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675633791948598, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675633791948599, "dur":2071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675633791950671, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1675633791950734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675633791952461, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1675633791952851, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675633791952888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675633791952900, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675633791953306, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675633791953343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675633791953346, "dur":64954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675633792018349, "dur":70527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791948707, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791948707, "dur":1927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791950635, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1675633791950699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791951446, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1675633791952016, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1675633791952053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791952143, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1675633791952615, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1675633791952647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791952812, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1675633791953226, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1675633791953276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791953280, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1675633791953853, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1675633791953881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791953943, "dur":11111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1675633791965106, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791965120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791965123, "dur":455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791965586, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791965597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791965600, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791966396, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791966409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791966412, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791966935, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791967139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791967142, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791968446, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791968502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791968505, "dur":461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791968974, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791969031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791969035, "dur":416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791969460, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791969511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791969515, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791969950, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791970017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791970020, "dur":388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791970415, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791970472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791970475, "dur":324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791970809, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791970819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791970822, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791971724, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791971734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791971737, "dur":399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791972144, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791972153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791972155, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791972803, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791972830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791972832, "dur":5880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675633791978722, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1675633791978786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791978789, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1675633791979198, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675633791979211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791979214, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675633791980174, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675633791980187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675633791980190, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675633791981308, "dur":107621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791948356, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791948356, "dur":2315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791950672, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1675633791950739, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791955487, "dur":431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1675633791955975, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791955992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791955995, "dur":393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791956394, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791956413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791956417, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791958055, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791958234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791958238, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791959051, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791959062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791959065, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791962164, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791962175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791962179, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791962747, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791962757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791962760, "dur":419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791963186, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791963194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791963197, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791963668, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791963679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791963682, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791965064, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791965077, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791965080, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791965565, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791965577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791965580, "dur":576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791966164, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791966230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791966233, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791966599, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791966698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791966711, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791967336, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791967390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791967393, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791968015, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791968089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791968092, "dur":461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791968562, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791968612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791968627, "dur":429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791969068, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791969128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791969132, "dur":540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791969684, "dur":1550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791971235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791971238, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791974740, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791974749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791974752, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791976770, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791976836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791976839, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675633791977206, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1675633791977268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791977334, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1675633791977634, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1675633791977643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791977679, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1675633791978219, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1675633791978270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791978273, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1675633791978846, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675633791978857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791978859, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675633791980109, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/GAMESUNITY/playgame2/TropicalRoots_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675633791980126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675633791980129, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/GAMESUNITY/playgame2/TropicalRoots_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675633791983639, "dur":105303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675633792091501, "dur":1524, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675633792111182, "dur": 377, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675633792111019, "dur": 551, "ph": "X", "name": "Write chrome-trace events", "args": {} },
